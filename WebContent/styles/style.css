@@ -6,42 +6,65 @@ body {
 	color: #9d9d9d;
 	min-width: 984px;
 	background: url(../images/body.jpg) center 0 repeat
-	}
+}
 h1 {
-	padding: 0px 0 0 40px;
-	position: relative;
-	float: left;
-	}
+	font-family: Sans, sans-serif;
+	font-size: 40px;
+}
+dt {
+	font-weight: bold;
+}
+a, a:active {
+	color: #070;
+}
+a:visited {
+	color: #050;
+}
+a:hover {
+	color: #f00;
+	font-size: 120%;
+}
 .main {
 	width: 100%;
 	margin-bottom: -16px;
 	position: relative;
 	z-index: 1;
-	}
+}
 .top {
 	width: 100%;
-	height: 113px;
+	height: 120px;
 	overflow: hidden;
 	padding-top: 24px;
-	}
+}
+.logo {
+	display: block;
+	width: 450px;
+	height: 120px;
+	text-indent: -5000px;
+	background: url(../images/logo2.png) 0 0 no-repeat;
+	margin: 10px 0 8px 0;
+}
 .menu {
 	width: 100%;
-	}
+	padding-left: 5px;
+	min-height: 68px;
+}
 .menu li {
+	width: 31%;
 	list-style-type: none;
 	float: left;
 	position: relative; 
 	margin-right: 1px;
-	}
+}
 .menu li.last-item {
 	margin: 0;
-	}
+}
 .menu li a {
 	display: inline-block;
-	width: 300px;
+	width: 100%;
 	font-size: 20px;
 	line-height: 1.22em;
-	padding: 18px 0 36px;
+	padding: 18px 0 36px 0;
 	margin-top: 10px;
 	color: #fff;
 	background: #000;
@@ -51,18 +74,58 @@ h1 {
 	-moz-border-radius: 18px 18px 0 0;
 	-webkit-border-radius: 18px 18px 0 0;
 	-khtml-border-radius: 18px 18px 0 0;
-	}
+}
 .menu li a.active, .menu li a:hover {
 	color: #0f0f0f;
 	background: #fff;
 	padding: 28px 0 36px;
 	margin: 0;
-	}
-.logo {
-	display: block;
-	width: 450px;
-	height: 200px;
-	text-indent: -5000px;
-	background: url(../images/logo2.png) 0 0 no-repeat;
-	margin: 10px 0 8px 0;
-	}
+}
+.content {
+	width: 95%;
+	padding: 15px 0 40px 0;
+	margin: 0 auto 0 auto;
+	min-height: 350px;
+	position: relative;
+	color: #0f0f0f;
+	background: #fff;
+	border-radius: 18px 18px 0 0;
+	-moz-border-radius: 18px 18px 0 0;
+	-webkit-border-radius: 18px 18px 0 0;
+	-khtml-border-radius: 18px 18px 0 0;	
+	z-index: 2;
+}
+.content3 {
+	width: 100%;
+	margin-top: 80px;
+}
+.mail a:visited {
+	color: #050;
+}
+.mail a:hover {
+	color: #ff0000;
+	font-size: 120%;
+}
+.mail a, .mail a.active{
+	color: #090;
+}
+.green {
+	color: green;
+}
+.adressFooter {
+	width: 95%;
+	margin: 0 auto 0 auto;
+	padding: 13px 0 22px;
+	background: #000;
+	font-size: 85%;
+}
+.adress {
+	margin-left: 50px;
+	text-align: left;
+}
+.copyRightFooter {
+	width: 100%;
+	padding: 15px 0;
+	font-size: 16px;
+	line-height: 20px;
+}
