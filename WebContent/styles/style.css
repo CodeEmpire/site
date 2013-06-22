@@ -26,7 +26,7 @@ a:hover {
 	font-size: 120%;
 }
 p {
-	text-align: left;
+	text-align: center;
 	margin: 30px;
 }
 
@@ -64,6 +64,12 @@ p {
 }
 .menu li.last-item {
 	margin: 0;
+}
+.menu li a.active-last-item {
+	margin: 0;
+	color: #0f0f0f;
+	background: #fff;
+	padding: 28px 0 36px;
 }
 .menu li a {
 	display: inline-block;
@@ -103,7 +109,6 @@ p {
 }
 .content1l {
 	width: 60%;
-	text-align: left;
 	float: left;
 }
 .content1r {
@@ -151,6 +156,10 @@ p {
 }
 .indexUl {
 	margin-left: 20px;
+	list-style-type: none;
+}
+.indexLi {
+	margin-bottom: 10px;
 }
 .ofertaUl {
 	list-style-type: none;
