@@ -44,11 +44,11 @@ p {
 }
 .logo {
 	display: block;
-	width: 450px;
+	width: 600px;
 	height: 120px;
 	text-indent: -5000px;
-	background: url(../images/logo2.png) 0 0 no-repeat;
-	margin: 10px 0 8px 0;
+	background: url(../images/codeempirelogo.png) 0 0 no-repeat;
+	margin: 20px 0 20px 40px;
 }
 .menu {
 	width: 100%;
@@ -147,6 +147,11 @@ p {
 .adress {
 	margin-left: 50px;
 	text-align: left;
+	float: left;
+}
+.name {
+	text-align: left;
+	margin-left: 50%;
 }
 .copyRightFooter {
 	width: 100%;
